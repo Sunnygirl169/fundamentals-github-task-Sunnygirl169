@@ -13,11 +13,10 @@ jobs:
 
     steps:
     - name: Send notification to Discord
-      uses: Ilshidur/action-discord@v1
+      uses: peaceiris/actions-gh-pages@v3
       with:
         webhook_url: 'https://discord.com/api/webhooks/1350588875646435388/Rnoj1zDeRb8R6kZqw788Pm5CoMQxv-J-Do83UIcEYAaulsW0Tl_Uz7PHAuzxqJDWhu1s'
         username: 'Sunnygirl169'
-        avatar_url: 'https://cdn.discordapp.com/avatars/1350588875646435388/ee34f59351e2232cc374ef4a5d0c6b19.png'
         content: |
           **New Pull Request Created!**
           - Author: @sofiamelnyk6770
